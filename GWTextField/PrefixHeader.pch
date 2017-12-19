@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  GWTextField
+//
+//  Created by genwei yang on 2017/12/18.
+//  Copyright © 2017年 YangGenWei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//导入工具文件
+#import "PMBTools.h"
+#import "UIView+Size.h"
+//设置属性值
+#define kSCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define kSCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
+//在ctl控件之下
+#define marginTop(ctl) ctl.frame.size.height+ctl.frame.origin.y
+//在ctl控件左边
+#define marginLeft(ctl) ctl.frame.size.width+ctl.frame.origin.x
+//16进制颜色值
+#define hexStrColor(cStr) [PMBTools colorWithHexString:cStr]
+
+//字符串是否为空
+#define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+
+#endif /* PrefixHeader_pch */

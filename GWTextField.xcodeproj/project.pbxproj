@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2282E69A1FE7DF7B00CD2658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6991FE7DF7B00CD2658 /* AppDelegate.m */; };
+		2282E6A21FE7DF7C00CD2658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2282E6A11FE7DF7C00CD2658 /* Assets.xcassets */; };
+		2282E6A51FE7DF7C00CD2658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2282E6A31FE7DF7C00CD2658 /* LaunchScreen.storyboard */; };
+		2282E6A81FE7DF7C00CD2658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6A71FE7DF7C00CD2658 /* main.m */; };
+		2282E6B01FE7E0E800CD2658 /* GWTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6AF1FE7E0E800CD2658 /* GWTextViewController.m */; };
+		2282E6B41FE7E39900CD2658 /* GWTransTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6B31FE7E39900CD2658 /* GWTransTextField.m */; };
+		2282E6BA1FE8006300CD2658 /* PMBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6B81FE8006300CD2658 /* PMBTools.m */; };
+		2282E6BF1FE8B02200CD2658 /* GWTextFieldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6BE1FE8B02200CD2658 /* GWTextFieldModel.m */; };
+		2282E6C21FE8B07300CD2658 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6C01FE8B07300CD2658 /* UIView+Size.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2282E6951FE7DF7B00CD2658 /* GWTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2282E6981FE7DF7B00CD2658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2282E6991FE7DF7B00CD2658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2282E6A11FE7DF7C00CD2658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2282E6A41FE7DF7C00CD2658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2282E6A61FE7DF7C00CD2658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2282E6A71FE7DF7C00CD2658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2282E6AE1FE7E0E800CD2658 /* GWTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWTextViewController.h; sourceTree = "<group>"; };
+		2282E6AF1FE7E0E800CD2658 /* GWTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWTextViewController.m; sourceTree = "<group>"; };
+		2282E6B21FE7E39900CD2658 /* GWTransTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWTransTextField.h; sourceTree = "<group>"; };
+		2282E6B31FE7E39900CD2658 /* GWTransTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWTransTextField.m; sourceTree = "<group>"; };
+		2282E6B81FE8006300CD2658 /* PMBTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMBTools.m; sourceTree = "<group>"; };
+		2282E6B91FE8006300CD2658 /* PMBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMBTools.h; sourceTree = "<group>"; };
+		2282E6BC1FE8050900CD2658 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2282E6BD1FE8B02100CD2658 /* GWTextFieldModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWTextFieldModel.h; sourceTree = "<group>"; };
+		2282E6BE1FE8B02200CD2658 /* GWTextFieldModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWTextFieldModel.m; sourceTree = "<group>"; };
+		2282E6C01FE8B07300CD2658 /* UIView+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		2282E6C11FE8B07300CD2658 /* UIView+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2282E6921FE7DF7B00CD2658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2282E68C1FE7DF7B00CD2658 = {
+			isa = PBXGroup;
+			children = (
+				2282E6971FE7DF7B00CD2658 /* GWTextField */,
+				2282E6961FE7DF7B00CD2658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2282E6961FE7DF7B00CD2658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2282E6951FE7DF7B00CD2658 /* GWTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2282E6971FE7DF7B00CD2658 /* GWTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2282E6BC1FE8050900CD2658 /* PrefixHeader.pch */,
+				2282E6981FE7DF7B00CD2658 /* AppDelegate.h */,
+				2282E6991FE7DF7B00CD2658 /* AppDelegate.m */,
+				2282E6AE1FE7E0E800CD2658 /* GWTextViewController.h */,
+				2282E6AF1FE7E0E800CD2658 /* GWTextViewController.m */,
+				2282E6BB1FE8006600CD2658 /* Tools */,
+				2282E6B11FE7E34C00CD2658 /* customTextField */,
+				2282E6A11FE7DF7C00CD2658 /* Assets.xcassets */,
+				2282E6A31FE7DF7C00CD2658 /* LaunchScreen.storyboard */,
+				2282E6A61FE7DF7C00CD2658 /* Info.plist */,
+				2282E6A71FE7DF7C00CD2658 /* main.m */,
+			);
+			path = GWTextField;
+			sourceTree = "<group>";
+		};
+		2282E6B11FE7E34C00CD2658 /* customTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2282E6BD1FE8B02100CD2658 /* GWTextFieldModel.h */,
+				2282E6BE1FE8B02200CD2658 /* GWTextFieldModel.m */,
+				2282E6B21FE7E39900CD2658 /* GWTransTextField.h */,
+				2282E6B31FE7E39900CD2658 /* GWTransTextField.m */,
+			);
+			path = customTextField;
+			sourceTree = "<group>";
+		};
+		2282E6BB1FE8006600CD2658 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2282E6B91FE8006300CD2658 /* PMBTools.h */,
+				2282E6B81FE8006300CD2658 /* PMBTools.m */,
+				2282E6C11FE8B07300CD2658 /* UIView+Size.h */,
+				2282E6C01FE8B07300CD2658 /* UIView+Size.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2282E6941FE7DF7B00CD2658 /* GWTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2282E6AB1FE7DF7C00CD2658 /* Build configuration list for PBXNativeTarget "GWTextField" */;
+			buildPhases = (
+				2282E6911FE7DF7B00CD2658 /* Sources */,
+				2282E6921FE7DF7B00CD2658 /* Frameworks */,
+				2282E6931FE7DF7B00CD2658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWTextField;
+			productName = GWTextField;
+			productReference = 2282E6951FE7DF7B00CD2658 /* GWTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2282E68D1FE7DF7B00CD2658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = YangGenWei;
+				TargetAttributes = {
+					2282E6941FE7DF7B00CD2658 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2282E6901FE7DF7B00CD2658 /* Build configuration list for PBXProject "GWTextField" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2282E68C1FE7DF7B00CD2658;
+			productRefGroup = 2282E6961FE7DF7B00CD2658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2282E6941FE7DF7B00CD2658 /* GWTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2282E6931FE7DF7B00CD2658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2282E6A51FE7DF7C00CD2658 /* LaunchScreen.storyboard in Resources */,
+				2282E6A21FE7DF7C00CD2658 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2282E6911FE7DF7B00CD2658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2282E6B41FE7E39900CD2658 /* GWTransTextField.m in Sources */,
+				2282E6BA1FE8006300CD2658 /* PMBTools.m in Sources */,
+				2282E6A81FE7DF7C00CD2658 /* main.m in Sources */,
+				2282E69A1FE7DF7B00CD2658 /* AppDelegate.m in Sources */,
+				2282E6B01FE7E0E800CD2658 /* GWTextViewController.m in Sources */,
+				2282E6BF1FE8B02200CD2658 /* GWTextFieldModel.m in Sources */,
+				2282E6C21FE8B07300CD2658 /* UIView+Size.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2282E6A31FE7DF7C00CD2658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2282E6A41FE7DF7C00CD2658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2282E6A91FE7DF7C00CD2658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2282E6AA1FE7DF7C00CD2658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2282E6AC1FE7DF7C00CD2658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBQXY8H29L;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GWTextField/PrefixHeader.pch";
+				INFOPLIST_FILE = GWTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanggenwei.GWTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2282E6AD1FE7DF7C00CD2658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBQXY8H29L;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GWTextField/PrefixHeader.pch";
+				INFOPLIST_FILE = GWTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanggenwei.GWTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2282E6901FE7DF7B00CD2658 /* Build configuration list for PBXProject "GWTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2282E6A91FE7DF7C00CD2658 /* Debug */,
+				2282E6AA1FE7DF7C00CD2658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2282E6AB1FE7DF7C00CD2658 /* Build configuration list for PBXNativeTarget "GWTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2282E6AC1FE7DF7C00CD2658 /* Debug */,
+				2282E6AD1FE7DF7C00CD2658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2282E68D1FE7DF7B00CD2658 /* Project object */;
+}
