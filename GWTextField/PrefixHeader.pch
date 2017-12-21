@@ -21,8 +21,9 @@
 #define marginLeft(ctl) ctl.frame.size.width+ctl.frame.origin.x
 //16进制颜色值
 #define hexStrColor(cStr) [PMBTools colorWithHexString:cStr]
-
+#define getColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 //字符串是否为空
 #define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
 
+#define kWeakSelf  __weak typeof(self) weakself = self;
 #endif /* PrefixHeader_pch */

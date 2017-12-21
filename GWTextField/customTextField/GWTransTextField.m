@@ -96,6 +96,7 @@
     self.layer.borderColor = textFieldModel.borderColor.CGColor;
     self.layer.borderWidth = textFieldModel.borderWidth;
     self.secureTextEntry = textFieldModel.isPassword;
+    self.layer.cornerRadius = textFieldModel.cornerRadius;
     //设置placeholder颜色
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     dict[NSForegroundColorAttributeName] = textFieldModel.placeHolderColor;
@@ -165,10 +166,11 @@
 
 #pragma mark 右边视图设置
 - (CGRect)rightViewRectForBounds:(CGRect)bounds{
-    bounds.origin.x = self.width - self.bounds.size.width*0.275-10;
+    CGFloat width = self.bounds.size.width*0.275;
+    bounds.origin.x = self.width -width -10;
     bounds.origin.y = self.bounds.size.height/2-self.bounds.size.height*0.6/2;
     bounds.size.height = self.bounds.size.height*0.6;
-    bounds.size.width = self.bounds.size.width*0.275;
+    bounds.size.width = width;
     return bounds;
 }
 

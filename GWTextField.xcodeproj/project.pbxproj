@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225760791FE910B600DFC770 /* PMBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 225760751FE910B500DFC770 /* PMBTools.m */; };
+		2257607A1FE910B600DFC770 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 225760781FE910B600DFC770 /* UIView+Size.m */; };
 		2282E69A1FE7DF7B00CD2658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6991FE7DF7B00CD2658 /* AppDelegate.m */; };
 		2282E6A21FE7DF7C00CD2658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2282E6A11FE7DF7C00CD2658 /* Assets.xcassets */; };
 		2282E6A51FE7DF7C00CD2658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2282E6A31FE7DF7C00CD2658 /* LaunchScreen.storyboard */; };
 		2282E6A81FE7DF7C00CD2658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6A71FE7DF7C00CD2658 /* main.m */; };
 		2282E6B01FE7E0E800CD2658 /* GWTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6AF1FE7E0E800CD2658 /* GWTextViewController.m */; };
 		2282E6B41FE7E39900CD2658 /* GWTransTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6B31FE7E39900CD2658 /* GWTransTextField.m */; };
-		2282E6BA1FE8006300CD2658 /* PMBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6B81FE8006300CD2658 /* PMBTools.m */; };
 		2282E6BF1FE8B02200CD2658 /* GWTextFieldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6BE1FE8B02200CD2658 /* GWTextFieldModel.m */; };
-		2282E6C21FE8B07300CD2658 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 2282E6C01FE8B07300CD2658 /* UIView+Size.m */; };
+		2291F05A1FEA3FD400104B62 /* GWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291F0591FEA3FD400104B62 /* GWButton.m */; };
+		2291F05E1FEA4AB300104B62 /* GWButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291F05D1FEA4AB300104B62 /* GWButtonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225760751FE910B500DFC770 /* PMBTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMBTools.m; sourceTree = "<group>"; };
+		225760761FE910B500DFC770 /* PMBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMBTools.h; sourceTree = "<group>"; };
+		225760771FE910B500DFC770 /* UIView+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		225760781FE910B600DFC770 /* UIView+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
 		2282E6951FE7DF7B00CD2658 /* GWTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2282E6981FE7DF7B00CD2658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2282E6991FE7DF7B00CD2658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,13 +36,13 @@
 		2282E6AF1FE7E0E800CD2658 /* GWTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWTextViewController.m; sourceTree = "<group>"; };
 		2282E6B21FE7E39900CD2658 /* GWTransTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWTransTextField.h; sourceTree = "<group>"; };
 		2282E6B31FE7E39900CD2658 /* GWTransTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWTransTextField.m; sourceTree = "<group>"; };
-		2282E6B81FE8006300CD2658 /* PMBTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMBTools.m; sourceTree = "<group>"; };
-		2282E6B91FE8006300CD2658 /* PMBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMBTools.h; sourceTree = "<group>"; };
 		2282E6BC1FE8050900CD2658 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2282E6BD1FE8B02100CD2658 /* GWTextFieldModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWTextFieldModel.h; sourceTree = "<group>"; };
 		2282E6BE1FE8B02200CD2658 /* GWTextFieldModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWTextFieldModel.m; sourceTree = "<group>"; };
-		2282E6C01FE8B07300CD2658 /* UIView+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
-		2282E6C11FE8B07300CD2658 /* UIView+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		2291F0581FEA3FD400104B62 /* GWButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWButton.h; sourceTree = "<group>"; };
+		2291F0591FEA3FD400104B62 /* GWButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWButton.m; sourceTree = "<group>"; };
+		2291F05C1FEA4AB300104B62 /* GWButtonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWButtonModel.h; sourceTree = "<group>"; };
+		2291F05D1FEA4AB300104B62 /* GWButtonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWButtonModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		2282E6971FE7DF7B00CD2658 /* GWTextField */ = {
 			isa = PBXGroup;
 			children = (
+				2291F05B1FEA42A700104B62 /* customButton */,
 				2282E6BC1FE8050900CD2658 /* PrefixHeader.pch */,
 				2282E6981FE7DF7B00CD2658 /* AppDelegate.h */,
 				2282E6991FE7DF7B00CD2658 /* AppDelegate.m */,
@@ -98,12 +105,24 @@
 		2282E6BB1FE8006600CD2658 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				2282E6B91FE8006300CD2658 /* PMBTools.h */,
-				2282E6B81FE8006300CD2658 /* PMBTools.m */,
-				2282E6C11FE8B07300CD2658 /* UIView+Size.h */,
-				2282E6C01FE8B07300CD2658 /* UIView+Size.m */,
+				225760761FE910B500DFC770 /* PMBTools.h */,
+				225760751FE910B500DFC770 /* PMBTools.m */,
+				225760771FE910B500DFC770 /* UIView+Size.h */,
+				225760781FE910B600DFC770 /* UIView+Size.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		2291F05B1FEA42A700104B62 /* customButton */ = {
+			isa = PBXGroup;
+			children = (
+				2291F0581FEA3FD400104B62 /* GWButton.h */,
+				2291F0591FEA3FD400104B62 /* GWButton.m */,
+				2291F05C1FEA4AB300104B62 /* GWButtonModel.h */,
+				2291F05D1FEA4AB300104B62 /* GWButtonModel.m */,
+			);
+			name = customButton;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,12 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2282E6B41FE7E39900CD2658 /* GWTransTextField.m in Sources */,
-				2282E6BA1FE8006300CD2658 /* PMBTools.m in Sources */,
 				2282E6A81FE7DF7C00CD2658 /* main.m in Sources */,
+				2257607A1FE910B600DFC770 /* UIView+Size.m in Sources */,
 				2282E69A1FE7DF7B00CD2658 /* AppDelegate.m in Sources */,
 				2282E6B01FE7E0E800CD2658 /* GWTextViewController.m in Sources */,
+				225760791FE910B600DFC770 /* PMBTools.m in Sources */,
+				2291F05E1FEA4AB300104B62 /* GWButtonModel.m in Sources */,
 				2282E6BF1FE8B02200CD2658 /* GWTextFieldModel.m in Sources */,
-				2282E6C21FE8B07300CD2658 /* UIView+Size.m in Sources */,
+				2291F05A1FEA3FD400104B62 /* GWButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

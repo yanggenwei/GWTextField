@@ -33,5 +33,6 @@
 @property (nonatomic,readwrite,unsafe_unretained)UIKeyboardType keyboardType;
 //是否显示密码
 @property (nonatomic,readwrite,unsafe_unretained)BOOL isPassword;
+@property (nonatomic,readwrite,unsafe_unretained)CGFloat cornerRadius;
 
 @end
